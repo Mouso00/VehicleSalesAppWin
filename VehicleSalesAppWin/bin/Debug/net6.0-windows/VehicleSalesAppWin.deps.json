@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VehicleSalesAppWin/1.0.0": {
+        "dependencies": {
+          "VehicleSalesStore": "1.0.0"
+        },
+        "runtime": {
+          "VehicleSalesAppWin.dll": {}
+        }
+      },
+      "VehicleSalesStore/1.0.0": {
+        "runtime": {
+          "VehicleSalesStore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VehicleSalesAppWin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleSalesStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
