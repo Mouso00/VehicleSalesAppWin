@@ -2,48 +2,48 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "VehicleSalesStore/1.0.0": {
+      "VehicleSalesStore2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/VehicleSalesStore.dll": {}
+          "bin/placeholder/VehicleSalesStore2.dll": {}
         },
         "runtime": {
-          "bin/placeholder/VehicleSalesStore.dll": {}
+          "bin/placeholder/VehicleSalesStore2.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "VehicleSalesStore/1.0.0": {
+    "VehicleSalesStore2/1.0.0": {
       "type": "project",
-      "path": "../../VehicleSalesStore2/VehicleSalesStore/VehicleSalesStore.csproj",
-      "msbuildProject": "../../VehicleSalesStore2/VehicleSalesStore/VehicleSalesStore.csproj"
+      "path": "../../VehicleSalesStore2/VehicleSalesStore/VehicleSalesStore2.csproj",
+      "msbuildProject": "../../VehicleSalesStore2/VehicleSalesStore/VehicleSalesStore2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "VehicleSalesStore >= 1.0.0"
+      "VehicleSalesStore2 >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mous00\\.nuget\\packages\\": {},
+    "C:\\Users\\30697\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mous00\\source\\repos\\VehicleSalesAppWin\\VehicleSalesAppWin\\VehicleSalesAppWin.csproj",
+      "projectUniqueName": "C:\\Users\\30697\\source\\repos\\VehicleSalesAppWin\\VehicleSalesAppWin\\VehicleSalesAppWin.csproj",
       "projectName": "VehicleSalesAppWin",
-      "projectPath": "C:\\Users\\Mous00\\source\\repos\\VehicleSalesAppWin\\VehicleSalesAppWin\\VehicleSalesAppWin.csproj",
-      "packagesPath": "C:\\Users\\Mous00\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mous00\\Source\\Repos\\VehicleSalesAppWin\\VehicleSalesAppWin\\obj\\",
+      "projectPath": "C:\\Users\\30697\\source\\repos\\VehicleSalesAppWin\\VehicleSalesAppWin\\VehicleSalesAppWin.csproj",
+      "packagesPath": "C:\\Users\\30697\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\30697\\source\\repos\\VehicleSalesAppWin\\VehicleSalesAppWin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mous00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\30697\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Mous00\\source\\repos\\VehicleSalesStore2\\VehicleSalesStore\\VehicleSalesStore.csproj": {
-              "projectPath": "C:\\Users\\Mous00\\source\\repos\\VehicleSalesStore2\\VehicleSalesStore\\VehicleSalesStore.csproj"
+            "C:\\Users\\30697\\source\\repos\\VehicleSalesStore2\\VehicleSalesStore\\VehicleSalesStore2.csproj": {
+              "projectPath": "C:\\Users\\30697\\source\\repos\\VehicleSalesStore2\\VehicleSalesStore\\VehicleSalesStore2.csproj"
             }
           }
         }
@@ -93,7 +93,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

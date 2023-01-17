@@ -6,6 +6,9 @@ namespace VehicleSalesAppWin
 {
     public partial class Form1 : Form
     {
+
+        BindingSource vehicleInventoryBindingSource = new BindingSource();
+        BindingSource cartBindigSource = new BindingSource();
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +27,13 @@ namespace VehicleSalesAppWin
 
         private void btn_create_car_Click(object sender, EventArgs e)
         {
-            Vehicle vehicle = new Vehicle(txt_make.Text,txt_model.Text,txt_price.Text);
+
+            Vehicle vehicle = new Vehicle(txt_maker.Text,txt_model.Text,txt_year.Text,txt_price.Text);
+            MessageBox.Show("Vehicle details\nMaker: " + vehicle.maker + "\nModel: " + vehicle.model + "\nYear: " + vehicle.year + "\nPrice: " + vehicle.price);
+
+          /*  List<Vehicle> list = new List<Vehicle>();
+            ShowAndAdd.vehicleList.Add(vehicle);*/
+            
         }
 
         private void btn_add_to_cart_Click(object sender, EventArgs e)
@@ -58,6 +67,11 @@ namespace VehicleSalesAppWin
         }
 
         private void txt_price_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

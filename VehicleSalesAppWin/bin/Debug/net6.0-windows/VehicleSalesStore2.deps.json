@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "VehicleSalesStore/1.0.0": {
+      "VehicleSalesStore2/1.0.0": {
         "runtime": {
-          "VehicleSalesStore.dll": {}
+          "VehicleSalesStore2.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "VehicleSalesStore/1.0.0": {
+    "VehicleSalesStore2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
