@@ -43,7 +43,6 @@
             this.btn_add_to_cart = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lbl_total = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_checkout = new System.Windows.Forms.Button();
             this.lst_cart = new System.Windows.Forms.ListBox();
@@ -192,7 +191,6 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.lbl_total);
-            this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.btn_checkout);
             this.groupBox3.Controls.Add(this.lst_cart);
@@ -215,16 +213,6 @@
             this.lbl_total.Size = new System.Drawing.Size(89, 41);
             this.lbl_total.TabIndex = 4;
             this.lbl_total.Text = "$0.00";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(132, 1125);
-            this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 41);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Total Cost:";
             // 
             // label1
             // 
@@ -249,10 +237,11 @@
             // 
             // lst_cart
             // 
+            this.lst_cart.ItemHeight = 41;
             this.lst_cart.Location = new System.Drawing.Point(14, 62);
             this.lst_cart.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.lst_cart.Name = "lst_cart";
-            this.lst_cart.Size = new System.Drawing.Size(748, 836);
+            this.lst_cart.Size = new System.Drawing.Size(748, 824);
             this.lst_cart.TabIndex = 0;
             this.lst_cart.SelectedIndexChanged += new System.EventHandler(this.lst_cart_SelectedIndexChanged);
             // 
@@ -297,6 +286,5 @@
         private Button btn_checkout;
         private ListBox lst_cart;
         private Label lbl_total;
-        private Label label2;
     }
 }

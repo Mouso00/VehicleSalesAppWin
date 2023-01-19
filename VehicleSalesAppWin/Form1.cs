@@ -48,16 +48,19 @@ namespace VehicleSalesAppWin
         {
              // get the selected item from inventory
              Car selected = (Car) lst_inventory.SelectedItem;
+
+            //add the item to cart 
             myStore.shoppingList.Add(selected);
- 
+
             //update the list box control
             cartBindingSource.ResetBindings(false);
-             //add the item to cart 
         }
 
         private void btn_checkout_Click(object sender, EventArgs e)
         {
-
+            decimal total = myStore.Checkout();
+            lbl_total.Text = "$" + total.ToString();
+            cartBindingSource.ResetBindings(false);
         }
 
         private void lst_inventory_SelectedIndexChanged(object sender, EventArgs e)
