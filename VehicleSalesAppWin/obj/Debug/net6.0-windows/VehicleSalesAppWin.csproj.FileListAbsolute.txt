@@ -36,11 +36,8 @@ C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6
 C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesAppWin.runtimeconfig.json
 C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesAppWin.dll
 C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesAppWin.pdb
-C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\obj\Debug\net6.0-windows\VehicleSalesAppWin.csproj.CopyComplete
 C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\obj\Debug\net6.0-windows\VehicleSalesAppWin.genruntimeconfig.cache
 C:\Users\30697\Source\Repos\VehicleSalesAppWin\VehicleSalesAppWin\obj\Debug\net6.0-windows\ref\VehicleSalesAppWin.dll
-C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesStore2.deps.json
-C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesStore2.runtimeconfig.json
-C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesStore2.exe
-C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesStore2.dll
-C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\VehicleSalesStore2.pdb
+C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\CarClassLibrary.dll
+C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\bin\Debug\net6.0-windows\CarClassLibrary.pdb
+C:\Users\30697\source\repos\VehicleSalesAppWin\VehicleSalesAppWin\obj\Debug\net6.0-windows\VehicleSalesAppWin.csproj.CopyComplete

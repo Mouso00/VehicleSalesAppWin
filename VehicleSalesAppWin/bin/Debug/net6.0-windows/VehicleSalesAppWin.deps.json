@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "VehicleSalesAppWin/1.0.0": {
         "dependencies": {
-          "VehicleSalesStore2": "1.0.0"
+          "CarClassLibrary": "1.0.0"
         },
         "runtime": {
           "VehicleSalesAppWin.dll": {}
         }
       },
-      "VehicleSalesStore2/1.0.0": {
+      "CarClassLibrary/1.0.0": {
         "runtime": {
-          "VehicleSalesStore2.dll": {}
+          "CarClassLibrary.dll": {}
         }
       }
     }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "VehicleSalesStore2/1.0.0": {
+    "CarClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
