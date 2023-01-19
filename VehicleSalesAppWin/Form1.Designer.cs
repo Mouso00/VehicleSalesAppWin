@@ -175,7 +175,6 @@
             this.lst_inventory.Name = "lst_inventory";
             this.lst_inventory.Size = new System.Drawing.Size(775, 1193);
             this.lst_inventory.TabIndex = 14;
-            this.lst_inventory.SelectedIndexChanged += new System.EventHandler(this.lst_inventory_SelectedIndexChanged);
             // 
             // btn_add_to_cart
             // 
@@ -202,7 +201,6 @@
             this.groupBox3.TabIndex = 16;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Shopping Cart:";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // lbl_total
             // 
@@ -243,7 +241,6 @@
             this.lst_cart.Name = "lst_cart";
             this.lst_cart.Size = new System.Drawing.Size(748, 824);
             this.lst_cart.TabIndex = 0;
-            this.lst_cart.SelectedIndexChanged += new System.EventHandler(this.lst_cart_SelectedIndexChanged);
             // 
             // Form1
             // 
