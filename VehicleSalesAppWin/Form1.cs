@@ -35,11 +35,24 @@ namespace VehicleSalesAppWin
             //MessageBox.Show(carDetails);
             myStore.carList.Add(car);
             carInventoryBindingSource.ResetBindings(false);
+
+            //Array to clear the list 
+            TextBox[] textlist = { txt_maker, txt_model, txt_year, txt_price };
+            foreach (TextBox txt in textlist)
+            {
+                txt.Clear();
+            }
         }
 
         private void btn_add_to_cart_Click(object sender, EventArgs e)
         {
-
+             // get the selected item from inventory
+             Car selected = (Car) lst_inventory.SelectedItem;
+            myStore.shoppingList.Add(selected);
+ 
+            //update the list box control
+            cartBindingSource.ResetBindings(false);
+             //add the item to cart 
         }
 
         private void btn_checkout_Click(object sender, EventArgs e)
@@ -76,9 +89,18 @@ namespace VehicleSalesAppWin
         {
 
             carInventoryBindingSource.DataSource = myStore.carList;
+            cartBindingSource.DataSource = myStore.shoppingList;
+
 
             lst_inventory.DataSource = carInventoryBindingSource;
             lst_inventory.DisplayMember = "ToString";
+
+            lst_cart.DataSource = cartBindingSource;
+            lst_cart.DisplayMember = ToString();
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
 
         }
     }

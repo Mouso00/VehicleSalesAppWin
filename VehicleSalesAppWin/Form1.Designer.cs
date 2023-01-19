@@ -46,7 +46,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_checkout = new System.Windows.Forms.Button();
-            this.lst_cart = new System.Windows.Forms.ListView();
+            this.lst_cart = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -55,7 +55,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(75, 183);
+            this.label7.Location = new System.Drawing.Point(4, 142);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(111, 41);
@@ -65,7 +65,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(104, 246);
+            this.label8.Location = new System.Drawing.Point(34, 210);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 41);
@@ -75,7 +75,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(95, 314);
+            this.label9.Location = new System.Drawing.Point(25, 284);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(89, 41);
@@ -85,7 +85,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(87, 118);
+            this.label10.Location = new System.Drawing.Point(16, 76);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(98, 41);
@@ -94,12 +94,11 @@
             // 
             // txt_year
             // 
-            this.txt_year.Location = new System.Drawing.Point(187, 238);
+            this.txt_year.Location = new System.Drawing.Point(134, 210);
             this.txt_year.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_year.Name = "txt_year";
             this.txt_year.Size = new System.Drawing.Size(249, 47);
             this.txt_year.TabIndex = 11;
-            this.txt_year.TextChanged += new System.EventHandler(this.txt_year_TextChanged);
             // 
             // groupBox1
             // 
@@ -116,14 +115,14 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox1.Size = new System.Drawing.Size(578, 856);
+            this.groupBox1.Size = new System.Drawing.Size(450, 565);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Create a Car:";
             // 
             // btn_create_car
             // 
-            this.btn_create_car.Location = new System.Drawing.Point(187, 478);
+            this.btn_create_car.Location = new System.Drawing.Point(143, 398);
             this.btn_create_car.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btn_create_car.Name = "btn_create_car";
             this.btn_create_car.Size = new System.Drawing.Size(214, 101);
@@ -134,39 +133,36 @@
             // 
             // txt_price
             // 
-            this.txt_price.Location = new System.Drawing.Point(187, 306);
+            this.txt_price.Location = new System.Drawing.Point(134, 284);
             this.txt_price.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(249, 47);
             this.txt_price.TabIndex = 13;
-            this.txt_price.TextChanged += new System.EventHandler(this.txt_price_TextChanged);
             // 
             // txt_model
             // 
-            this.txt_model.Location = new System.Drawing.Point(187, 175);
+            this.txt_model.Location = new System.Drawing.Point(134, 139);
             this.txt_model.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_model.Name = "txt_model";
             this.txt_model.Size = new System.Drawing.Size(249, 47);
             this.txt_model.TabIndex = 13;
-            this.txt_model.TextChanged += new System.EventHandler(this.txt_model_TextChanged);
             // 
             // txt_maker
             // 
-            this.txt_maker.Location = new System.Drawing.Point(187, 109);
+            this.txt_maker.Location = new System.Drawing.Point(134, 76);
             this.txt_maker.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_maker.Name = "txt_maker";
             this.txt_maker.Size = new System.Drawing.Size(249, 47);
             this.txt_maker.TabIndex = 13;
-            this.txt_maker.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lst_inventory);
-            this.groupBox2.Location = new System.Drawing.Point(682, 82);
+            this.groupBox2.Location = new System.Drawing.Point(486, 68);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox2.Size = new System.Drawing.Size(551, 1066);
+            this.groupBox2.Size = new System.Drawing.Size(817, 1247);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Car Inventory:";
@@ -178,13 +174,13 @@
             this.lst_inventory.Location = new System.Drawing.Point(27, 49);
             this.lst_inventory.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.lst_inventory.Name = "lst_inventory";
-            this.lst_inventory.Size = new System.Drawing.Size(480, 824);
+            this.lst_inventory.Size = new System.Drawing.Size(775, 1193);
             this.lst_inventory.TabIndex = 14;
             this.lst_inventory.SelectedIndexChanged += new System.EventHandler(this.lst_inventory_SelectedIndexChanged);
             // 
             // btn_add_to_cart
             // 
-            this.btn_add_to_cart.Location = new System.Drawing.Point(1307, 547);
+            this.btn_add_to_cart.Location = new System.Drawing.Point(1369, 550);
             this.btn_add_to_cart.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btn_add_to_cart.Name = "btn_add_to_cart";
             this.btn_add_to_cart.Size = new System.Drawing.Size(267, 101);
@@ -200,19 +196,20 @@
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.btn_checkout);
             this.groupBox3.Controls.Add(this.lst_cart);
-            this.groupBox3.Location = new System.Drawing.Point(1681, 82);
+            this.groupBox3.Location = new System.Drawing.Point(1688, 68);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox3.Size = new System.Drawing.Size(629, 1080);
+            this.groupBox3.Size = new System.Drawing.Size(922, 1270);
             this.groupBox3.TabIndex = 16;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Shopping Cart:";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // lbl_total
             // 
             this.lbl_total.AutoSize = true;
-            this.lbl_total.Location = new System.Drawing.Point(340, 864);
+            this.lbl_total.Location = new System.Drawing.Point(352, 1188);
             this.lbl_total.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(89, 41);
@@ -222,7 +219,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(175, 864);
+            this.label2.Location = new System.Drawing.Point(132, 1125);
             this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 41);
@@ -232,7 +229,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 992);
+            this.label1.Location = new System.Drawing.Point(132, 1188);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 41);
@@ -241,7 +238,7 @@
             // 
             // btn_checkout
             // 
-            this.btn_checkout.Location = new System.Drawing.Point(221, 708);
+            this.btn_checkout.Location = new System.Drawing.Point(299, 972);
             this.btn_checkout.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btn_checkout.Name = "btn_checkout";
             this.btn_checkout.Size = new System.Drawing.Size(187, 101);
@@ -252,19 +249,18 @@
             // 
             // lst_cart
             // 
-            this.lst_cart.Location = new System.Drawing.Point(5, 96);
+            this.lst_cart.Location = new System.Drawing.Point(14, 62);
             this.lst_cart.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.lst_cart.Name = "lst_cart";
-            this.lst_cart.Size = new System.Drawing.Size(565, 562);
+            this.lst_cart.Size = new System.Drawing.Size(748, 836);
             this.lst_cart.TabIndex = 0;
-            this.lst_cart.UseCompatibleStateImageBehavior = false;
             this.lst_cart.SelectedIndexChanged += new System.EventHandler(this.lst_cart_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2659, 1061);
+            this.ClientSize = new System.Drawing.Size(2870, 1327);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btn_add_to_cart);
             this.Controls.Add(this.groupBox2);
@@ -299,7 +295,7 @@
         private GroupBox groupBox3;
         private Label label1;
         private Button btn_checkout;
-        private ListView lst_cart;
+        private ListBox lst_cart;
         private Label lbl_total;
         private Label label2;
     }
