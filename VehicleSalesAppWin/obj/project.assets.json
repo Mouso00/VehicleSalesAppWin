@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "VehicleSalesStore2/1.0.0": {
+      "CarClassLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/VehicleSalesStore2.dll": {}
+          "bin/placeholder/CarClassLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/VehicleSalesStore2.dll": {}
+          "bin/placeholder/CarClassLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "VehicleSalesStore2/1.0.0": {
+    "CarClassLibrary/1.0.0": {
       "type": "project",
-      "path": "../../VehicleSalesStore2/VehicleSalesStore/VehicleSalesStore2.csproj",
-      "msbuildProject": "../../VehicleSalesStore2/VehicleSalesStore/VehicleSalesStore2.csproj"
+      "path": "../../CarClassLibrary/CarClassLibrary/CarClassLibrary.csproj",
+      "msbuildProject": "../../CarClassLibrary/CarClassLibrary/CarClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "VehicleSalesStore2 >= 1.0.0"
+      "CarClassLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -59,8 +59,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\30697\\source\\repos\\VehicleSalesStore2\\VehicleSalesStore\\VehicleSalesStore2.csproj": {
-              "projectPath": "C:\\Users\\30697\\source\\repos\\VehicleSalesStore2\\VehicleSalesStore\\VehicleSalesStore2.csproj"
+            "C:\\Users\\30697\\source\\repos\\CarClassLibrary\\CarClassLibrary\\CarClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\30697\\source\\repos\\CarClassLibrary\\CarClassLibrary\\CarClassLibrary.csproj"
             }
           }
         }
